@@ -34,15 +34,15 @@
       
         <form class="nestedgrid2" action=" https://formspree.io/f/mlezljyy" method="POST">
         <div class="div1">
-    Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname"><br>
-    Email*<br><input type="email" size="30" required name="email"><br>
-    phone*<br><input type="tel" size="30" placeholder="(xxx)xxx-xxxx" required name="phone"><br>
-     personal website<br><input type="url" size="30" required name="personalwebsite"><br>
+    Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label="fullname"><br>
+    Email*<br><input type="email" size="30" required name="email" aria-label="personal email"><br>
+    phone*<br><input type="tel" size="30" placeholder="(xxx)xxx-xxxx" required name="phone" aria-label="phone number"><br>
+     personal website<br><input type="url" size="30" required name="personalwebsite" aria-label="website"><br>
     
     </div>
     <div class="div2">
       
-       Current High School<br><input type="text" size="30" list="highschool" name="Current High School">
+       Current High School<br><input type="text" size="30" list="highschool" name="Current High School" aria-label="school name">
        <datalist id="highschool">
          <option value="Beaverbrook">
          <option value="Birchwood">
@@ -53,9 +53,9 @@
        </datalist>
        
        <br>
-          Expected date of entry<br><input type="date" name="Entry"><br>
+          Expected date of entry<br><input type="date" name="Entry" aria-label="date"><br>
        Number of days/weeks desired<br><input type="text" size="30" required name="Number of days/weeks desired"><br>
-      <br><input type= "submit" value="Help Me Book Boost My Scores!" class="button">
+      <br><input type= "submit" value="Help Me Book Boost My Scores!" class="button" aria-label="days">
     </div>
     </form>
     <div class="call">
